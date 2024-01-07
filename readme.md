@@ -28,7 +28,7 @@ The main goal of Fruits-Jason is to demonstrate a multi-agent system where the b
 ## Output
 
 ```bash
-[buyer] Let's do grocery!
+[buyer] Let\'s do grocery!
 [buyer] This is what I need: [needed(apple,10),needed(orange,20),needed(banana,50)]
 [buyer] ~~~~~~~~~~~~~~ NEXT GOAL: Buy 10 apples ~~~~~~~~~~~~~~
 [buyer] Select the best offer amongst the following: [productInfo(apple,3,400,charlotte),productInfo(apple,2,4,bob),productInfo(apple,1,10,alice)]
@@ -46,7 +46,7 @@ The main goal of Fruits-Jason is to demonstrate a multi-agent system where the b
 [alice] I am out of stock of oranges
 [buyer] Select the best offer amongst the following: [productInfo(orange,6,200,charlotte)]
 [buyer] I believe this to be the best offer: productInfo(orange,6,200,charlotte)
-[buyer] Damn, I'll need to sell a kidney...
+[buyer] Damn, I\'ll need to sell a kidney...
 [buyer] +100 money (new total: 202)
 [buyer] I feel lighter...
 [buyer] ----- PURCHASE: Bought 18 units of type 'orange' for a total price of 108 from Agent charlotte
@@ -67,9 +67,9 @@ The main goal of Fruits-Jason is to demonstrate a multi-agent system where the b
 [alice] I am out of stock of bananas
 [buyer] Select the best offer amongst the following: [productInfo(banana,3,2000,bob)]
 [buyer] I believe this to be the best offer: productInfo(banana,3,2000,bob)
-[buyer] Damn, I'll need to sell a kidney...
+[buyer] Damn, I\'ll need to sell a kidney...
 [buyer] +20 money (new total: 74)
-[buyer] The doctor said he won't remove my last kidney but gave me some money anyway :)
+[buyer] The doctor said he won\'t remove my last kidney but gave me some money anyway :)
 [buyer] ----- PURCHASE: Bought 20 units of type 'banana' for a total price of 60 from Agent bob
 [buyer] ----- NEW BALANCE: 14
 [bob] I sold 20 bananas and received 60 money for it. I now have a total of 60 money
