@@ -5,11 +5,11 @@ seller(alice).
 seller(bob).
 seller(charlotte).
 
-needed(apple, 10).      // should buy from: alice -> bob -> charlotte
+needed(apple, 10).      // should buy from: alice
 needed(orange, 20).     // should buy from: alice -> charlotte
 needed(banana, 50).    // should buy from: charlotte -> alice -> bob
 
-money(90).
+money(120).
 kidney(2).
 
 /* Initial goals */

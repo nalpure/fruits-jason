@@ -5,7 +5,7 @@ money(0).
 
 productInfo(apple, 1, 10).  // item, price, quantity
 productInfo(orange, 4, 2).
-productInfo(banana, 2, 80).
+productInfo(banana, 2, 10).
 productInfo(peach, 4, 20).
 
 /* Initial goals */
